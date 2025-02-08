@@ -1,0 +1,33 @@
+{
+  "debug-mode": false,
+  "logging": {
+    "sovereign": {
+      "stdout": 54321
+    },
+    "agent": {
+      "stdout": 54320
+    }
+  },
+  "sovereign": {
+    "secret-keys-from": "generate",
+    "governance": {
+      "safe": {
+        "wallet-address": "0xb4D537b3A15a20be34657DFe6b976aFA3B8b18c7",
+        "threshold": 1,
+        "http-endpoint": "https://safe-transaction-sepolia.safe.global:443/api/v1/messages",
+        "http-endpoint-port": 50000,
+        "chain-id": 11155111
+      }
+    },
+    "key-sync-port": 50001,
+    "monitoring-port": 50051,
+    "http-attestation-port": 58080,
+    "https-attestation-port": 58443,
+    "alt-names": [],
+    "trace-level": 1
+  },
+  "agent": {
+    "FOO": "foo",
+    "BAR": "bar"
+  }
+}
